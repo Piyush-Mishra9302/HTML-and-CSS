@@ -1,0 +1,23 @@
+*{
+    background: papayawhip;
+}
+
+#fstH{
+    background: yellow;
+    color: black;
+}
+h1{
+    background: red;
+    color: black;
+}
+.red{
+    background: aquamarine;
+    color: peru;
+}
+
+#seven,
+six{
+    background-color: blue;
+    color: brown;
+    font-size: larger;
+}

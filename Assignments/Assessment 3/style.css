@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+    ;
+  }
+  
+  .leaderboard {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .leaderboard thead {
+    background: #25a379;
+    color: white;
+  }
+  
+  .leaderboard th,
+  .leaderboard td {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .leaderboard tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .leaderboard tbody tr:last-child {
+    border-bottom: none;
+  }
+  .leaderboard tbody tr:hover {
+    background-color: #d3adc0;
+    color: #181f1d;
+  }
+  
+  .highlight {
+    color: #25a379;
+    font-weight: bold;
+    background-color: #ddd;
+  }
+  
