@@ -1,0 +1,56 @@
+body {
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+    backdrop-filter: blur(8px); /* blur effect */
+    position: relative;
+  }
+  
+  .form-container {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px; 
+    margin-top: -150px; 
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  }
+  
+  input {
+    width: 90%;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  input::placeholder {
+    color: #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
