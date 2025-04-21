@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/" method="get" enctype="application/x-www-form-urlencoded">
+      <div>
+        <label for="msg">Message</label>
+        <textarea name="msg" id="msg" cols="50" rows="8"></textarea>
+      </div>
+      <br />
+      <div>
+        <lable for="cars">Select car</lable>
+        <select id="cars">
+          <option value="BMW">BMW</option>
+          <option selected value="Audi">Audi</option>
+          <option value="Tesla">Tesla</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <lable for="course">Select Course</lable>
+        <input type="text" id="course" list="subjects" />
+        <datalist id="subjects">
+          <option value="frontend"></option>
+          <option value="Backendend"></option>
+          <option value="Python"></option>
+          <option value="Java"></option>
+          <option value="php"></option>
+          <option value="fullstack"></option>
+        </datalist>
+      </div>
+      <button type="submit" value="login">Login</button>
+      <input type="reset" value="reset"
+    </form>
+  </body>
+</html>

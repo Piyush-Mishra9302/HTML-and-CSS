@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000; /* helps improve contrast */
+}
+
+.center {
+    text-align: center;
+    margin: 20px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section-divider {
+    height: 2px;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ccc;
+    border: none;
+}
+
+.education-table,
+.social-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.4); /* slight background for readability */
+    color: #fff;
+}
+
+.education-table th,
+.education-table td,
+.social-table td {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.education-table th {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.register-btn {
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-btn:hover {
+    background-color: #e91e63;
+  }
