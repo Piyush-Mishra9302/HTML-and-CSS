@@ -8,6 +8,42 @@ body {
     text-shadow: 1px 1px 2px #000;
 }
 
+.logo{
+    margin: 20px;
+    padding-bottom: 20px;
+    width: 30%;
+    
+    text-shadow: #00ff00;
+}
+nav{
+    display: flex;
+}
+.logo p{
+    color: #ffd700;
+    font-size: 30px;
+}
+.logo p span{
+    color: #00ff00;
+}
+.options{
+    margin: 28px;
+    height: 10vh;
+}
+.options ul{
+    display: flex;
+    
+}
+.options ul li{ 
+    color: #ffd700;
+    font-size: 22px;
+    list-style: none;
+    margin-right: 15px;
+}
+.options ul li a{
+    color: #f0e68c;
+    text-decoration: none;
+}
+
 .center {
     text-align: center;
     margin: 20px;

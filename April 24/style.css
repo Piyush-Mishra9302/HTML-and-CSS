@@ -1,0 +1,14 @@
+
+ *{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Playwrite RO", cursive;
+  }
+
+  .box{
+    height: 300px;
+    width: 300px;
+    border: 5px solid red;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+  }
