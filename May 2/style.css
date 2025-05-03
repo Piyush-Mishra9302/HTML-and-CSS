@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.heading{
+    border: 2px solid black;
+    background-color: yellow;
+    padding: 10px;
+}
+
+/* Tablet view */
+
+@media screen and (max-width : 768px){
+    .container{
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* Mobile view */
+
+
+@media screen and (max-width : 425px){
+    .container{
+        /* flex-direction: column; */
+       
+        grid-template-columns: 1fr;
+    }
+}
