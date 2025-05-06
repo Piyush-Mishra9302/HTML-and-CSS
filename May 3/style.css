@@ -1,0 +1,13 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.box:hover{
+    transform: scale(2,3);
+    background-color: yellow;
+}
